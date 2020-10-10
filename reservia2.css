@@ -15,7 +15,6 @@ body {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 a {
@@ -129,7 +128,6 @@ h4 {
     position: absolute;
     top: 0;
     right: 0;
-    transform: translateX(100%);
 }
 
 .fa-map-marker-alt {
@@ -142,10 +140,11 @@ h4 {
 }
 
 .barre {
-    width: 100%;
+    width: 250px;
     border: solid#F2F2F2;
     height: 65px;
     padding: 10px 30px 10px 10px;
+    border-radius: 0px 15px 15px 0px;
 }
 
 .bouton {
@@ -394,7 +393,7 @@ strong {
 
 .img_vieux_port {
     width: 100%;
-    height: 130px;
+    height: 75%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -410,7 +409,7 @@ strong {
 
 .img_fort_pomegues {
     width: 100%;
-    height: 130px;
+    height: 75%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -426,7 +425,7 @@ strong {
 
 .img_frioul {
     width: 100%;
-    height: 130px;
+    height: 75%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -442,7 +441,7 @@ strong {
 
 .img_calanques {
     width: 100%;
-    height: 130px;
+    height: 75%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -458,7 +457,7 @@ strong {
 
 .img_notre_dame_garde {
     width: 100%;
-    height: 130px;
+    height: 75%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -474,7 +473,7 @@ strong {
 
 .img_longchamp {
     width: 100%;
-    height: 130px;
+    height: 75%;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -662,11 +661,15 @@ h6 {
         flex: 1 0 auto;
     }
     header .link{
-        font-size: 16px;
+        font-size: 20px;
     }
     .section h4{
         display: block;
-        font-size: 25px;
+        font-size: 33px;
+    }
+    .header{
+        padding-left:20px ;
+        padding-right: 20px;
     }
 
     h4 {
@@ -677,13 +680,13 @@ h6 {
     }
     .fas.fa-chart-line{
         display: block;
-        margin-left: 220px;
+        margin-left: 195px;
         font-size: 25px;
     }
 
     .section p {
         margin-left: 0px;
-        font-size: 19px;
+        font-size: 25px;
         display: block;
     }
 
@@ -715,23 +718,24 @@ h6 {
     }
 
     .fa-map-marker-alt {
-        height: 25px;
-        width: 24px;
-        padding: 13px 13px 27px 20px;
+        height: 70px;
+        width: 70px;
+        padding: 22px 17px 27px 28px;
     }
     .section{
         padding-left: 40px;
     }
     .recherche{
         margin: 0px;
-        width: 38%;
+        width: 35%;
         display: flex;
         justify-content: left;
+        height: auto;
     }
 
     .barre {
-        height: 39px;
-        width: 250px;
+        height: 70px;
+        width: 575px;
     }
 
     .search .bouton {
@@ -740,9 +744,11 @@ h6 {
     }
 
     .bouton {
-        font-size: 16px;
-        height: 63px;
-        width: 130px;
+        height: 70px;
+        width: 200px;
+        font-weight: bold;
+        font-size: 25px;
+        padding-top: 20px;
     }
 
     .filtres {
@@ -750,54 +756,55 @@ h6 {
         height: 80px;
         margin-top: 15px;
         flex-direction: row;
+        width: 70%;
+    }
+    .filtres p{
+        padding-bottom: 10px;
     }
 
     .filtrage {
         display: flex;
-        width: 71%;
         height: 45px;
         margin-left: 15px;
     }
 
-    .filtres p {
-        margin-top: 10px;
-    }
-
     .economique {
         margin-top: 0;
-        width: 170px;
-        height: 39px;
+        width: 255px;
+        height: 60px;
+        margin-left: 25px;
     }
     .filtrage p{
-        font-size: 15px;
+        font-size: 25px;
         padding-left: 15px;
+        margin-top: 15px;
     }
 
     .familial {
-        width: 140px;
-        height: 39px;
+        width: 200px;
+        height: 60px;
         margin-left: 25px;
     }
 
     .romantique {
         margin-top: 0;
-        margin-left: 15px;
-        width: 175px;
-        height: 39px;
+        margin-left: 30px;
+        width: 255px;
+        height: 60px;
     }
 
     .animaux {
         margin-top: 0;
-        margin-left: 15px;
-        width: 235px;
-        height: 39px;
+        margin-left: 30px;
+        width: 330px;
+        height: 60px;
 
     }
 
     .icone {
-        width: 40px;
-        height: 40px;
-        font-size: 15px;
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
     }
 
     .fa-money-bill-wave:hover {
@@ -822,9 +829,9 @@ h6 {
         margin-top: 0;
     }
     .fa-info-circle{
-        width: 20px;
-        height:20px ;
-        font-size:20px ;
+        width: 30px;
+        height:30px ;
+        font-size:30px ;
     }
     .ecofami{
         display: flex;
@@ -836,12 +843,13 @@ h6 {
     .infos{
         display: flex;
         justify-content: left;
-        margin-top: 5px;
+        margin-top: 40px;
+        margin-bottom: 25px;
     }
 
     .hebergement {
         width: 92%;
-        height: 700px;
+        height: 755px;
         border-radius: 20px;
         margin-left: 35px;
         background-color: #F2F2F2;
@@ -858,14 +866,13 @@ h6 {
     .hebergementamarseille p {
         font-size: 20px;
         line-height: 13px;
-        margin: 13 0 6px 12px;
         align-items: flex-start;
-        margin-top: 5px;
-        margin-left: 15px;
+        margin-top: 15px;
+        margin-left: 20px;
     }
 
     .hebergementamarseille {
-        height: 235px;
+        height: 265px;
         border-radius: 20px;
         background-color: white;
         width: 30%;
@@ -886,20 +893,18 @@ h6 {
         margin-left: 40px;
         display: flex;
         justify-content: left;
-        margin-top: 140px;
-        font-size: 20px;
+        margin-top: 200px;
+        font-size: 25px;
     }
 
     .img_log {
         height: 60%;
-        padding: 4px 4px 0px 4px;
-        border-radius: 20px 20px 0px 0px;
         background-position: center;
     }
 
     .rating_housing {
-        margin-left: 13px;
-        font-size: 20px;
+        margin-left: 20px;
+        font-size: 18px;
         justify-content: left;
         margin-top: 15px;
     }
@@ -913,17 +918,16 @@ h6 {
 
     .rating_popular {
         margin-top: 30px;
-        font-size: 20px;
-        margin-top: 60px;
+        font-size: 18px;
+        margin-top: 55px;
     }
 
 
     .populaires {
         border-radius: 20px;
         width: 540px;
-        height: 700px;
-        margin: 0px 30px 0px 0px;
-        padding-bottom: 20px;
+        height: 755px;
+        margin: 0px 50px 0px 0px;
         background-color: #F2F2F2;
         justify-content: space-around;
         flex-direction: column;
@@ -933,14 +937,15 @@ h6 {
     .box_graphique {
         display: flex;
         justify-content: left;
-        padding-left: 28px;
+        padding-left: 43px;
         padding-right: 20px;
     }
 
     .populairesmarseille {
         width: 85%;
         height: 168px;
-        margin-left: 25px;
+        margin-left: 40px;
+        margin-bottom: 12px;
     }
 
     .noms p {
@@ -951,6 +956,7 @@ h6 {
     .noms{
         margin: 0px;
         margin-left: 20px;
+        padding-top: 7px;
     }
 
     .ensemble {
@@ -968,6 +974,7 @@ h6 {
 
     .activites {
         padding-right: 0px;
+        margin-top: 60px;
     }
 
     .groupe_activites {
@@ -977,22 +984,22 @@ h6 {
     }
 
     .complet p {
-        font-size: 13px;
+        font-size: 16px;
+        flex-direction: initial;
     }
 
     .vieux_port {
-        height: 500px;
+        height: 550px;
         border-radius: 15px;
         background-color: white;
         margin-top: 0px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        width: 370px;
+        width: 420px;
         margin-right: 10px;
     }
 
     .img_vieux_port {
-        width: 100%;
-        height: 350px;
+        height: 90%;
         border-radius: 15px 15px 0px 0px;
     }
     .fort_ile{
@@ -1000,80 +1007,73 @@ h6 {
     }
 
     .fort_pomegues {
-        height: 235px;
+        height: 290px;
         border-radius: 15px;
         background-color: white;
         margin-top: 0px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        width: 370px;
     }
 
     .img_fort_pomegues {
-        width: 220px;
-        height: 160px;
+        height: 80%;
         border-radius: 15px 15px 0px 0px;
     }
 
     .ile_frioul {
-        height: 138px;
+        height: 200px;
         border-radius: 15px;
         background-color: white;
-        margin-top: 25px;
+        margin-top: 60px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        width: 370px;
+        width: 440px;
     }
 
     .img_frioul {
-        width: 220px;
-        height: 70px;
+        height: 73%;
         border-radius: 15px 15px 0px 0px;
     }
 
     .calanques {
-        height: 500px;
+        height: 550px;
         border-radius: 15px;
         background-color: white;
         margin-top: 0px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        width: 370px;
+        width: 420px;
     }
 
     .img_calanques {
-        width: 220px;
-        height: 300px;
+        height: 90%;
         border-radius: 15px 15px 0px 0px;
     }
 
     .notre_dame_garde {
-        height: 157px;
+        height: 245px;
         border-radius: 15px;
         background-color: white;
         margin-top: 0px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        width: 370px;
+        width: 425px;
     }
 
     .img_notre_dame_garde {
-        width: 220px;
-        height: 110px;
+        height: 77%;
         border-radius: 15px 15px 0px 0px;
     }
 
     .parc_longchamp {
-        height: 157px;
+        height: 245px;
         border-radius: 15px;
         background-color: white;
-        margin-top: 25px;
+        margin-top: 60px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        width: 370px;
     }
     .garde_longchamp{
         width: 50%;
     }
 
     .img_longchamp {
-        width: 220px;
-        height: 110px;
+        height: 77%;
         border-radius: 15px 15px 0px 0px;
     }
 
@@ -1099,16 +1099,24 @@ h6 {
     .footer {
         display: flex;
         justify-content: space-between;
-        padding: 0 250px 50px 30px;
         height: 200px;
+        margin-top: 55px;
+    }
+    .footercontenue{
+        width: 75%;
+        display: flex;
+        padding-left: 25px;
+        justify-content: space-between;
+
+
     }
 
     .footer p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .footer h6 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .assistance {
@@ -1128,5 +1136,6 @@ display: block;
 
     .show-desktop {
         display: block !important;
+
     }
 }
