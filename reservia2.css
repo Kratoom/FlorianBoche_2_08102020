@@ -688,13 +688,13 @@ h6 {
 
     h4 {
         font-weight: 800;
-        font-size: 25px;
+        font-size: 23px;
         margin-bottom: 0px;
         font-family: 'Raleway', sans-serif;
     }
     .fas.fa-chart-line{
         display: block;
-        margin-left: 195px;
+        margin-left: 100px;
         font-size: 25px;
     }
 
@@ -853,13 +853,13 @@ h6 {
     }
 
     .infos p {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         padding-top: 8px;
     }
     .infos{
         display: flex;
         justify-content: left;
-        margin-top: 40px;
+        margin-top: 25px;
         margin-bottom: 25px;
     }
 
@@ -876,7 +876,7 @@ h6 {
         margin-top: 0px;
         display: flex;
         justify-content: left;
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .hebergementamarseille p {
@@ -888,17 +888,16 @@ h6 {
     }
 
     .hebergementamarseille {
-        height: 265px;
+        height: 200px;
         border-radius: 20px;
         background-color: white;
-        width: 30%;
+        width: 31%;
         margin-left: 0px;
     }
 
     .cadrehebergement {
         display: flex;
         justify-content: space-between;
-        height: 410px;
         width: 94%;
         flex-wrap: wrap;
         margin-top: 10px;
@@ -909,7 +908,7 @@ h6 {
         margin-left: 40px;
         display: flex;
         justify-content: left;
-        margin-top: 200px;
+        margin-top: 40px;
         font-size: 25px;
     }
 
@@ -922,20 +921,19 @@ h6 {
         margin-left: 20px;
         font-size: 18px;
         justify-content: left;
-        margin-top: 15px;
-    }
+        margin-top: 15px    }
 
     .img_populaires {
         width: 150px;
-        height: 168px;
+        height: 140px;
         padding: 5px;
         border-radius: 20px 0px 0px 20px;
     }
 
     .rating_popular {
         margin-top: 30px;
-        font-size: 18px;
-        margin-top: 55px;
+        font-size: 15px;
+        margin-top: 25px;
     }
 
 
@@ -954,13 +952,15 @@ h6 {
         justify-content: left;
         padding-left: 43px;
         padding-right: 20px;
+        width: 410px;
     }
 
     .populairesmarseille {
         width: 85%;
-        height: 168px;
+        height: 140px;
         margin-left: 40px;
         margin-bottom: 12px;
+        margin-top: 0px;
     }
 
     .noms p {
