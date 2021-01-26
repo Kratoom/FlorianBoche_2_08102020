@@ -1153,7 +1153,8 @@ h6 {
     .footercontenue {
         width: 75%;
         display: flex;
-        padding-left: 220px;
+        padding-left: 230px;
+        padding-right: 70px;
         justify-content: space-between;
     }
 
