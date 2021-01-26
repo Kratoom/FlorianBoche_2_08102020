@@ -699,7 +699,7 @@ h6 {
 
     .fas.fa-chart-line {
         display: block;
-        margin-left: 100px;
+        margin-left: 124px;
         font-size: 25px;
     }
 
@@ -877,7 +877,7 @@ h6 {
 
     .hebergement {
         width: 92%;
-        height: 755px;
+        height: 655px;
         border-radius: 20px;
         margin-left: 35px;
         background-color: #F2F2F2;
@@ -892,15 +892,14 @@ h6 {
     }
 
     .hebergementamarseille p {
-        font-size: 20px;
-        line-height: 13px;
+        font-size: 16px;
         align-items: flex-start;
         margin-top: 15px;
         margin-left: 20px;
     }
 
     .hebergementamarseille {
-        height: 200px;
+        height: 215px;
         border-radius: 20px;
         background-color: white;
         width: 31%;
@@ -921,7 +920,7 @@ h6 {
         display: flex;
         justify-content: left;
         margin-top: 40px;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .img_log {
@@ -931,9 +930,9 @@ h6 {
 
     .rating_housing {
         margin-left: 20px;
-        font-size: 18px;
+        font-size: 13px;
         justify-content: left;
-        margin-top: 15px
+        margin-top: 9px
     }
 
     .img_populaires {
@@ -945,14 +944,13 @@ h6 {
 
     .rating_popular {
         margin-top: 30px;
-        font-size: 15px;
-        margin-top: 25px;
+        font-size: 13px;
     }
 
 
     .populaires {
         border-radius: 20px;
-        height: 755px;
+        height: 655px;
         margin: 0px 50px 0px 0px;
         background-color: #F2F2F2;
         justify-content: space-around;
@@ -964,12 +962,12 @@ h6 {
         display: flex;
         justify-content: left;
         padding-left: 43px;
-        padding-right: 20px;
         width: 410px;
+        padding-right: 0px;
     }
 
     .populairesmarseille {
-        width: 85%;
+        width: 82%;
         height: 140px;
         margin-left: 40px;
         margin-bottom: 12px;
@@ -977,7 +975,7 @@ h6 {
     }
 
     .noms p {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 20px;
         margin-top: 10px;
     }
