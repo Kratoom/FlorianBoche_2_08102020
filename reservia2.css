@@ -241,6 +241,7 @@ input[type="text"]
     margin-right: 10px;
 }
 
+
 .infos {
     display: flex;
     margin-top: 30px;
@@ -805,6 +806,11 @@ h6 {
         height: 50px;
         margin-left: 25px;
     }
+    .economique:hover{
+        transition-duration: 1s;
+        cursor: pointer;
+        border: solid 1px black;
+    }
 
     .filtrage p {
         font-size: 18px;
@@ -818,11 +824,23 @@ h6 {
         margin-left: 15px;
     }
 
+    .familial:hover{
+        transition-duration: 1s;
+        cursor: pointer;
+        border: solid 1px black;
+    }
+    }
+
     .romantique {
         margin-top: 0;
         margin-left: 20px;
         width: 190px;
         height: 50px;
+    }
+    .romantique:hover{
+        transition-duration: 1s;
+        cursor: pointer;
+        border: solid 1px black;
     }
 
     .animaux {
@@ -831,17 +849,22 @@ h6 {
         width: 250px;
         height: 50px;
     }
+    .animaux:hover{
+        transition-duration: 1s;
+        cursor: pointer;
+        border: solid 1px black;
+
+    }
 
     .icone {
-        width: 50px;
-        height: 50px;
+        width: 48px;
+        height: 48px;
         font-size: 20px;
     }
+   
 
     .fa-money-bill-wave:hover {
         color: green;
-
-
     }
 
     .fa-child:hover {
@@ -853,7 +876,7 @@ h6 {
     }
 
     .fa-dog:hover {
-        color: black;
+        color: black
     }
 
     .familial {
