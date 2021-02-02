@@ -156,6 +156,12 @@ input::placeholder {
 
 }
 
+input[type="text"]
+{
+    font-size:18px;
+    font-weight: bold;
+}
+
 .bouton {
     background-color: #0065FC;
     color: white;
