@@ -160,6 +160,7 @@ input[type="text"]
 {
     font-size:18px;
     font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 .bouton {
@@ -1152,13 +1153,13 @@ h6 {
         justify-content: space-between;
         height: 200px;
         margin-top: 35px;
+        max-width: 1440px;
+        margin: auto;
     }
 
     .footercontenue {
         width: 75%;
         display: flex;
-        padding-left: 230px;
-        padding-right: 70px;
         justify-content: space-between;
     }
 
