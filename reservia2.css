@@ -160,7 +160,7 @@ input[type="text"]
 {
     font-size:18px;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
+    
 }
 
 .bouton {
@@ -241,7 +241,6 @@ input[type="text"]
     margin-right: 10px;
 }
 
-
 .infos {
     display: flex;
     margin-top: 30px;
@@ -276,7 +275,7 @@ input[type="text"]
 /*Debut Populaire*/
 .img_populaires {
     width: 147px;
-    height: 170px;
+    height: 150px;
     padding: 5px;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -295,7 +294,7 @@ strong {
     background-color: white;
     box-shadow: 3px 3px 6px#DBDBDB;
     width: 90%;
-    height: 170px;
+    height: 150px;
 }
 
 .populairesmarseille p {
@@ -364,7 +363,7 @@ strong {
 }
 
 .rating_popular {
-    margin-top: 75px;
+    margin-top: 55px;
     font-size: 12px;
 }
 
@@ -543,9 +542,8 @@ h6 {
 
     .recherche {
         display: flex;
-        justify-content: center;
         width: 200px;
-        margin-left: 250px;
+        margin-left: 225px;
     }
 
     .fa-info-circle {
@@ -586,6 +584,9 @@ h6 {
         width: 55%;
         margin: 15px 0px 0px 190px;
     }
+    .populaires p{
+        font-size: 16px;
+    }
 
     .noms {
         margin-left: 55px;
@@ -594,6 +595,7 @@ h6 {
 
     .rating_popular {
         margin-top: 10px;
+        font-size: 14px;
     }
 
     .hebergementamarseille {
@@ -707,7 +709,7 @@ h6 {
 
     .fas.fa-chart-line {
         display: block;
-        margin-left: 124px;
+        margin-left: 99px;
         font-size: 25px;
     }
 
@@ -718,14 +720,13 @@ h6 {
     }
 
     header .logo {
-        margin-right: 54%;
+        margin-right: 50%;
         padding-left: 40px;
         padding-top: 20px;
     }
 
     .link {
         padding-top: 40px;
-        margin-right: 27px;
     }
 
     .heb {
@@ -785,7 +786,7 @@ h6 {
         height: 80px;
         margin-top: 15px;
         flex-direction: row;
-        width: 70%;
+        width: 100%;
     }
 
     .filtres p {
@@ -823,12 +824,10 @@ h6 {
         height: 50px;
         margin-left: 15px;
     }
-
     .familial:hover{
         transition-duration: 1s;
         cursor: pointer;
         border: solid 1px black;
-    }
     }
 
     .romantique {
@@ -853,30 +852,12 @@ h6 {
         transition-duration: 1s;
         cursor: pointer;
         border: solid 1px black;
-
     }
 
     .icone {
         width: 48px;
         height: 48px;
         font-size: 20px;
-    }
-   
-
-    .fa-money-bill-wave:hover {
-        color: green;
-    }
-
-    .fa-child:hover {
-        color: red;
-    }
-
-    .fa-heart:hover {
-        color: pink;
-    }
-
-    .fa-dog:hover {
-        color: black
     }
 
     .familial {
@@ -906,7 +887,7 @@ h6 {
     }
 
     .hebergement {
-        width: 92%;
+        width: 93%;
         height: 655px;
         border-radius: 20px;
         margin-left: 35px;
@@ -981,7 +962,7 @@ h6 {
     .populaires {
         border-radius: 20px;
         height: 655px;
-        margin: 0px 50px 0px 0px;
+        margin: 0px 38px 0px 0px;
         background-color: #F2F2F2;
         justify-content: space-around;
         flex-direction: column;
@@ -992,14 +973,14 @@ h6 {
         display: flex;
         justify-content: left;
         padding-left: 43px;
-        width: 410px;
+        width: 390px;
         padding-right: 0px;
     }
 
     .populairesmarseille {
         width: 82%;
         height: 140px;
-        margin-left: 40px;
+        margin-left: 38px;
         margin-bottom: 12px;
         margin-top: 0px;
     }
@@ -1012,7 +993,7 @@ h6 {
 
     .noms {
         margin: 0px;
-        margin-left: 20px;
+        margin-left: 15px;
         padding-top: 7px;
     }
 
@@ -1181,7 +1162,7 @@ h6 {
     }
 
     .footercontenue {
-        width: 75%;
+        width: 80%;
         display: flex;
         justify-content: space-between;
     }
