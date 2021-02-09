@@ -156,11 +156,10 @@ input::placeholder {
 
 }
 
-input[type="text"]
-{
-    font-size:18px;
+input[type="text"] {
+    font-size: 18px;
     font-weight: bold;
-    
+
 }
 
 .bouton {
@@ -584,7 +583,8 @@ h6 {
         width: 55%;
         margin: 15px 0px 0px 190px;
     }
-    .populaires p{
+
+    .populaires p {
         font-size: 16px;
     }
 
@@ -807,7 +807,8 @@ h6 {
         height: 50px;
         margin-left: 25px;
     }
-    .economique:hover{
+
+    .economique:hover {
         transition-duration: 1s;
         cursor: pointer;
         border: solid 1px black;
@@ -824,7 +825,8 @@ h6 {
         height: 50px;
         margin-left: 15px;
     }
-    .familial:hover{
+
+    .familial:hover {
         transition-duration: 1s;
         cursor: pointer;
         border: solid 1px black;
@@ -836,7 +838,8 @@ h6 {
         width: 190px;
         height: 50px;
     }
-    .romantique:hover{
+
+    .romantique:hover {
         transition-duration: 1s;
         cursor: pointer;
         border: solid 1px black;
@@ -848,7 +851,8 @@ h6 {
         width: 250px;
         height: 50px;
     }
-    .animaux:hover{
+
+    .animaux:hover {
         transition-duration: 1s;
         cursor: pointer;
         border: solid 1px black;
@@ -902,18 +906,27 @@ h6 {
         font-size: 23px;
     }
 
+    .nomhebergement {
+        width: auto;
+    }
+
+    .cadrehebergement strong {
+        font-size: 15px;
+    }
+
     .hebergementamarseille p {
         font-size: 16px;
         align-items: flex-start;
-        margin-top: 15px;
+        margin-top: 10px;
         margin-left: 20px;
+        margin-right: 0;
     }
 
     .hebergementamarseille {
         height: 215px;
         border-radius: 20px;
         background-color: white;
-        width: 31%;
+        width: 32%;
         margin-left: 0px;
     }
 
@@ -943,7 +956,7 @@ h6 {
         margin-left: 20px;
         font-size: 13px;
         justify-content: left;
-        margin-top: 9px
+        margin-top: 15px
     }
 
     .img_populaires {
@@ -1157,14 +1170,14 @@ h6 {
         justify-content: space-between;
         height: 200px;
         margin-top: 35px;
-        max-width: 1440px;
         margin: auto;
     }
 
     .footercontenue {
         width: 80%;
         display: flex;
-        justify-content: space-between;
+        max-width: 1440px;
+        margin: auto;
     }
 
     .footer p {
@@ -1176,16 +1189,19 @@ h6 {
     }
 
     .assistance {
-        margin-left: 20px;
+
         display: block;
+        width: 25%;
     }
 
     .propos {
         display: block;
+        width: 35%;
     }
 
     .nos_hebergements {
         display: block;
+        width: 31%;
     }
 
     .show-mobile {
