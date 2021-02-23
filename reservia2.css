@@ -929,6 +929,7 @@ h6 {
         background-color: white;
         width: 32%;
         margin-left: 0px;
+        cursor: pointer;
     }
 
     .cadrehebergement {
@@ -997,6 +998,7 @@ h6 {
         margin-left: 38px;
         margin-bottom: 12px;
         margin-top: 0px;
+        cursor: pointer;
     }
 
     .noms p {
@@ -1105,7 +1107,6 @@ h6 {
         background-color: white;
         margin-top: 0px;
         box-shadow: 3px 3px 6px#DBDBDB;
-        padding-left: 10px;
     }
 
     .img_calanques {
