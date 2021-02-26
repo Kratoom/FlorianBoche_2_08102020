@@ -87,20 +87,14 @@ p {
     margin-left: 15px;
 }
 
-h3 {
-    font-weight: normal;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
-}
-
-h4 {
+h1,h2 {
     font-weight: 800;
     font-size: 20px;
     margin-bottom: 0px;
     font-family: 'Raleway', sans-serif;
 }
 
-.section h4 {
+.section h1 {
     padding-right: 10px;
     margin-top: 20px;
 }
@@ -337,7 +331,7 @@ strong {
     margin-left: 10px;
 }
 
-.hebergement h4 {
+.hebergement h2 {
     padding-left: 15px;
 }
 
@@ -509,7 +503,7 @@ strong {
     height: 500px;
 }
 
-h6 {
+h3 {
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     margin: 30px 0 20px 10px;
@@ -535,7 +529,7 @@ h6 {
         justify-content: center;
     }
 
-    .section h4 {
+    .section h1 {
         display: flex;
         justify-content: center;
     }
@@ -604,7 +598,7 @@ h6 {
         margin-left: 220px;
     }
 
-    .hebergement h4 {
+    .hebergement h2 {
         justify-content: center;
         display: flex;
         padding-left: 0px;
@@ -631,7 +625,7 @@ h6 {
         justify-content: center;
     }
 
-    .activites h4 {
+    .activites h2 {
         display: flex;
         justify-content: center;
     }
@@ -691,7 +685,7 @@ h6 {
         flex: 1 0 auto;
     }
 
-    .section h4 {
+    .section h1 {
         display: block;
         font-size: 23px;
     }
@@ -701,7 +695,7 @@ h6 {
         padding-right: 20px;
     }
 
-    h4 {
+    h1,h2 {
         font-weight: 800;
         font-size: 23px;
         margin-bottom: 0px;
@@ -899,7 +893,7 @@ h6 {
         background-color: #F2F2F2;
     }
 
-    .hebergement h4 {
+    .hebergement h2 {
         margin-left: 30px;
         margin-top: 0px;
         display: flex;
@@ -1025,7 +1019,7 @@ h6 {
         width: 100%;
     }
 
-    .activites h4 {
+    .activites h2 {
         margin-left: 30px;
         display: block;
     }
@@ -1186,7 +1180,7 @@ h6 {
         font-size: 16px;
     }
 
-    .footer h6 {
+    .footer h3 {
         font-size: 18px;
     }
 
