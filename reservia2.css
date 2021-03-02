@@ -321,6 +321,13 @@ strong {
     object-fit: cover;
 }
 
+sectionlog{ 
+    display: block;
+}
+sectionacti{
+    display: block;
+}
+
 .hebergementamarseille {
     height: 220px;
     border-radius: 20px;
@@ -916,12 +923,16 @@ h3 {
         margin-left: 20px;
         margin-right: 0;
     }
+  
+    .hebergement a{
+        width: 32%;
+    }
 
     .hebergementamarseille {
         height: 215px;
         border-radius: 20px;
         background-color: white;
-        width: 32%;
+        width: 100%;
         margin-left: 0px;
         cursor: pointer;
     }
@@ -956,7 +967,7 @@ h3 {
     }
 
     .img_populaires {
-        width: 150px;
+        width: 132px;
         height: 140px;
         padding: 5px;
         border-radius: 20px 0px 0px 20px;
